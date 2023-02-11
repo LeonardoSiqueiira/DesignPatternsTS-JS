@@ -2,8 +2,6 @@ Singleton - Creational (Criação)
 Intenção
 Garantir que uma classe tenha somente uma instância no programa e fornecer um ponto de acesso global para a mesma.
 
-Destilando a intenção
-Em vídeo: https://www.youtube.com/watch?v=x9h8MgAvi_I&list=PLbIBj8vQhvm0VY5YrMrafWaQY2EnJ3j8H&index=4
 
 O Singleton é um padrão de projeto que tem a intenção de resolver dois problemas em uma aplicação:
 
@@ -12,8 +10,6 @@ Fornecer um ponto de acesso global para a mesma - isso deixa o singleton muito p
 Apesar de ser um dos padrões mais usados na atualidade, requer conhecimento e cuidado ao utilizá-lo. Um programador pode facilmente criar um Singleton que gera problemas de concorrência em um programa.
 
 Note que o Singleton tem duas responsabilidades e isso quebra a regra do SRP (Single Responsibility Principle).
-
-Em entrevista, anos após a criação do livro, Erich Gamma (um dos autores), mencionou seu interesse em remover o Singleton se fossem reescrever o livro na atualidade. Segundo ele, o uso de singleton quase sempre é sinal de problemas de design. (https://bit.ly/nosingleton)
 
 Estrutura
 Veja a pasta diagramas.
